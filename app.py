@@ -1,7 +1,7 @@
+import serial, time
 
-
-
-
+PuertoSerie = serial.Serial('COM7', 9600)
+time.sleep(2)
 
 while True:
     data = input("Introduce un valor: ")
